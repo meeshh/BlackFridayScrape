@@ -83,7 +83,6 @@ while True:
 
         product = Product(name, price, prev_price, link)
         if should_add:
-            # print(json.dumps(product.serialize(), indent=4, sort_keys=True))
             products.append(product)
 
     page = page - 1
